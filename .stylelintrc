@@ -1,0 +1,11 @@
+{
+  "plugins": ["stylelint-plugin-stylus"],
+  "rules": {
+    "stylus/at-rule-no-unknown": true,
+    "stylus/single-line-comment": "always",
+    "stylus/declaration-colon": "always",
+    "stylus/selector-list-comma": "always",
+    "stylus/semicolon": "always",
+    "stylus/pythonic": "never"
+  }
+}
