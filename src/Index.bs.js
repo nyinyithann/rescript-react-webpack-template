@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as ReactDom from "react-dom";
-import * as App$RescriptReactIntro from "./components/app/App.bs.js";
+import * as App$RescriptReactWebpackTemplate from "./components/app/App.bs.js";
 
 import './style/global.styl'
 ;
@@ -10,7 +10,7 @@ import './style/global.styl'
 var reactRoot = document.querySelector("#react");
 
 if (!(reactRoot == null)) {
-  ReactDom.render(React.createElement(App$RescriptReactIntro.make, {}), reactRoot);
+  ReactDom.render(React.createElement(App$RescriptReactWebpackTemplate.make, {}), reactRoot);
 }
 
 export {

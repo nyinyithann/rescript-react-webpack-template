@@ -1,5 +1,5 @@
 {
-  "name": "my-webpack-project",
+  "name": "rescript-react-webpack-template",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -42,7 +42,7 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
   },
-  "description": "My webpack project",
+  "description": "ReScript-React Webpack Template",
   "scripts": {
     "dashboard": "webpack-dashboard -- webpack serve --config build/webpack.js --env env=dev addon=dashboard",
     "eslint": "eslint --config .eslintrc --fix build/*.js build/**/*.js src/*.{js,jsx} src/**/*.{js,jsx}",
